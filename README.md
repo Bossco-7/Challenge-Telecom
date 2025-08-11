@@ -5,9 +5,7 @@ Proyecto para acreditar el challenge de Python.
 # Informe final
 
 El análisis automático sobre la base de clientes compara el monto total reportado por cliente con lo esperado según su tarifa mensual y tiempo con la compañía (expected_total = monthly_charge × tenure). El informe identifica un subconjunto de clientes cuya facturación total es significativamente menor que la esperada — casos que requieren investigación priorizada. Estas discrepancias pueden deberse a evasión de pagos, errores en facturación, promociones, reembolsos o datos incompletos. Se entregan archivos con los clientes sospechosos (suspect_customers.csv), visualizaciones (histograma, scatter y barra por método de pago) y un informe con prioridades.
-Hallazgos clave (qué debemos comunicar)
-
-    Método de detección: se aplicaron dos reglas heurísticas principales:
+Hallazgos clave:
 
         Ratio: total_reportado / total_esperado < 0.75 (cliente pagó <75% de lo esperado) y tenure ≥ 3 meses.
 
