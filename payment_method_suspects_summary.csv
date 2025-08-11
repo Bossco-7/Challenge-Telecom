@@ -1,0 +1,5 @@
+payment_method,n_customers,n_suspects,suspect_rate
+bank transfer (automatic),1589,95,0.059786028949024544
+credit card (automatic),1568,85,0.054209183673469385
+mailed check,1665,78,0.04684684684684685
+electronic check,2445,44,0.0179959100204499
